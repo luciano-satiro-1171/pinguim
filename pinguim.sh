@@ -13,14 +13,16 @@
 # variaveis:
 X='\\\\'
 # cores de fundo:
-B='\033[40m' # preto
-W='\033[47m' # branco
-R='\033[0m'  # reset
-Y='\033[43m' # amarelo
+B='\033[40m'  # preto
+W='\033[47m'  # branco
+R='\033[0m'   # reset
+Y='\033[43m'  # amarelo
 # cores de letras:
 BL='\033[30m' # preto
 GR='\033[32m' # verde
 WH='\033[37m' # branco
+BO='\033[1m'  # negrito
+UN='\033[22m' # comum
 
 # funcoes:
 
@@ -32,7 +34,7 @@ WH='\033[37m' # branco
 # (/(    )\) 
 
 clear
-echo -e "${B}${GR}  --------------------------------             "
+echo -e "${B}${GR}${BO}  --------------------------------             "
 echo -e " | Welcome to the world of Linux! |            "
 echo -e "  --------------------------------             "
 echo -e "                                   \           "
