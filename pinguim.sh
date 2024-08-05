@@ -22,7 +22,6 @@ BL='\033[30m' # preto
 GR='\033[32m' # verde
 WH='\033[37m' # branco
 BO='\033[1m'  # negrito
-UN='\033[22m' # comum
 
 # funcoes:
 
