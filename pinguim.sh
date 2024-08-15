@@ -10,6 +10,8 @@
 # rule 4:      restante em minusculo
 # description: mostra um pinguim com uma frase
 
+# obs.: as variaveis devem estar com aspas simples
+
 # variaveis:
 X='\\\\'
 # cores de fundo:
