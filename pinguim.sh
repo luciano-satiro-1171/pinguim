@@ -13,7 +13,6 @@
 # obs.: as variaveis devem estar com aspas simples
 
 # variaveis:
-LOG="./arq.log"
 X='\\\\'
 # cores de fundo:
 B='\033[40m'  # preto
