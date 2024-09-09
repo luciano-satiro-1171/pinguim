@@ -26,15 +26,6 @@ WH='\033[37m' # branco
 BO='\033[1m'  # negrito
 
 # funcoes:
-# evita repeticao do if e else:
-IF_ELSE() {
-    if [ $? -eq 0 ]; then
-        echo "[success] $1" >> $LOG
-    else
-        echo "[error] $2" >> $LOG
-        return 1
-    fi
-}
 
 # operacoes:
 #    .--.    
