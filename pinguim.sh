@@ -20,7 +20,6 @@ B='\033[40m'  # preto
 W='\033[47m'  # branco
 R='\033[0m'   # reset
 Y='\033[43m'  # amarelo
-
 # cores de letras:
 BL='\033[30m' # preto
 GR='\033[32m' # verde
