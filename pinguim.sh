@@ -15,7 +15,7 @@
 # variaveis:
 X='\\\\'
 
-# cores de fundo:
+# cores de fundos:
 F_PRETO='\033[40m'  # preto
 F_BRANCO='\033[47m'  # branco
 F_PADRAO='\033[0m'   # reset
