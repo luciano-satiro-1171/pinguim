@@ -14,16 +14,28 @@
 
 # variaveis:
 X='\\\\'
+
 # cores de fundo:
-B='\033[40m'  # preto
-W='\033[47m'  # branco
-R='\033[0m'   # reset
-Y='\033[43m'  # amarelo
+F_PRETO='\033[40m'  # preto
+F_BRANCO='\033[47m'  # branco
+F_PADRAO='\033[0m'   # reset
+F_AMARELO='\033[43m'  # amarelo
+
+#B='\033[40m'  # preto
+#W='\033[47m'  # branco
+#R='\033[0m'   # reset
+#Y='\033[43m'  # amarelo
+
 # cores de letras:
-BL='\033[30m' # preto
-GR='\033[32m' # verde
-WH='\033[37m' # branco
-BO='\033[1m'  # negrito
+L_PRETA='\033[30m' # preta
+L_VERDE='\033[32m' # verde
+L_BRANCA='\033[37m' # branca
+L_NEGRITO='\033[1m'  # negrito
+
+#BL='\033[30m' # preto
+#GR='\033[32m' # verde
+#WH='\033[37m' # branco
+#BO='\033[1m'  # negrito
 
 # funcoes:
 
@@ -35,14 +47,14 @@ BO='\033[1m'  # negrito
 # (/(    )\) 
 
 clear
-echo -e "${B}${GR}${BO}  --------------------------------             "
+echo -e "${F_PRETO}${L_VERDE}${L_NEGRITO}  --------------------------------             "
 echo -e " | Welcome to the world of Linux! |            "
 echo -e "  --------------------------------             "
 echo -e "                                   \           "
 echo -e "                                    \          "
-echo -e "                                     \ ${WH}.--.    "
+echo -e "                                     \ ${L_BRANCA}.--.    "
 echo -e "                                      |o_o |   "
-echo -e "                                      |${Y}${BL}:_/${B}${WH} |   "
-echo -e "                                     //${W}${BL}.--.${B}${WH}${X}  "
-echo -e "                                    (/${W}${BL}(    )${B}${WH}\) "
-echo -e $R
+echo -e "                                      |${F_AMARELO}${L_PRETA}:_/${F_PRETO}${L_BRANCA} |   "
+echo -e "                                     //${F_BRANCO}${L_PRETA}.--.${F_PRETO}${L_BRANCA}${X}  "
+echo -e "                                    (/${F_BRANCO}${L_PRETA}(    )${F_PRETO}${L_BRANCA}\) "
+echo -e $F_PADRAO
